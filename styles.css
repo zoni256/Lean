@@ -1,6 +1,4 @@
-Tässä on koko `styles.css`, jonka voit kopioida ja liittää GitHubissa vanhan `styles.css`-tiedoston tilalle:
-
-```css
+css
 :root {
   color-scheme: dark;
   --bg: #0b1110;
@@ -365,4 +363,3 @@ h3 {
     width: 100%;
   }
 }
-```
