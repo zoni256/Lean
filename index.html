@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Moderni ja helppo nettisivupohja, jonka voi julkaista GitHub Pagesilla."
+    />
+    <title>Nettisivupohja</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#etusivu" aria-label="Etusivu">
+        <span class="brand-mark">N</span>
+        <span>Nettisivupohja</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Avaa valikko</span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Paavalikko">
+        <a href="#palvelut">Palvelut</a>
+        <a href="#tyot">Tyot</a>
+        <a href="#yhteys">Yhteys</a>
+      </nav>
+    </header>
+
+    <main id="etusivu">
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Valmis pohja GitHubiin</p>
+          <h1>Moderni nettisivu, jonka saat julkaistua nopeasti.</h1>
+          <p class="hero-text">
+            Muokkaa tekstit, vaihda varit ja julkaise sivu GitHub Pagesilla. Ei asennuksia,
+            ei monimutkaista buildia.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#yhteys">Aloita muokkaus</a>
+            <a class="button secondary" href="#palvelut">Katso sisalto</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Sivun kohokohdat">
+          <div>
+            <span class="stat">100%</span>
+            <span class="stat-label">staattinen HTML/CSS/JS</span>
+          </div>
+          <div>
+            <span class="stat">5 min</span>
+            <span class="stat-label">GitHub Pages -julkaisuun</span>
+          </div>
+          <div>
+            <span class="stat">0</span>
+            <span class="stat-label">pakollista riippuvuutta</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="palvelut" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Sisalto</p>
+          <h2>Rakenna tasta oma sivusi</h2>
+          <p>
+            Pohjassa on yleisimmat osiot valmiina. Voit kayttaa tata yritykselle,
+            portfoliolle, tapahtumalle tai omalle projektille.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="icon">01</span>
+            <h3>Selkea etusivu</h3>
+            <p>Hero-osio, toimintapainikkeet ja nopea yhteenveto sivun tarkoituksesta.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">02</span>
+            <h3>Palvelut tai ominaisuudet</h3>
+            <p>Kolme korttia, joihin voit vaihtaa omat palvelut, hyodyt tai tuotteet.</p>
+          </article>
+          <article class="feature-card">
+            <span class="icon">03</span>
+            <h3>Helppo yhteydenotto</h3>
+            <p>Valmis yhteysosio, jonka sahkopostin ja some-linkit voi vaihtaa nopeasti.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="tyot" class="section split-section">
+        <div>
+          <p class="eyebrow">Projektit</p>
+          <h2>Nayta mita osaat</h2>
+          <p>
+            Tama osio sopii referensseille, kuville, case-esimerkeille tai lyhyelle
+            esittelylle. Vaihda tekstit omiin ja poista mita et tarvitse.
+          </p>
+        </div>
+        <div class="project-list">
+          <article>
+            <h3>Projekti A</h3>
+            <p>Lyhyt kuvaus projektista, tuloksesta tai asiakkaalle tuotetusta arvosta.</p>
+          </article>
+          <article>
+            <h3>Projekti B</h3>
+            <p>Voit lisata tanne linkkeja GitHub-repoihin, demoihin tai kuviin.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="yhteys" class="section contact-section">
+        <div>
+          <p class="eyebrow">Yhteys</p>
+          <h2>Valmis julkaistavaksi</h2>
+          <p>
+            Muokkaa tahan oma nimesi, sahkoposti ja linkit. Sen jalkeen repo GitHubiin
+            ja Pages paalle.
+          </p>
+        </div>
+        <a class="button primary" href="mailto:sinun.sahkoposti@example.com">
+          sinun.sahkoposti@example.com
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Nettisivupohja. Kaikki oikeudet pidatetaan.</p>
+      <a href="#etusivu">Takaisin alkuun</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
