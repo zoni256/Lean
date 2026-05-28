@@ -5,17 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Moderni ja helppo nettisivupohja, jonka voi julkaista GitHub Pagesilla."
+      content="Lean on moderni pelistudio ja sovelluskehittäjä, joka rakentaa tunnelmallisia pelejä ja sulavia digitaalisia tuotteita."
     />
-    <title>Nettisivupohja</title>
-    <link rel="stylesheet" href="styles.css?v=2" />
+    <title>Lean - Pelit ja sovellukset</title>
+    <link rel="stylesheet" href="styles.css?v=3" />
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#etusivu" aria-label="Etusivu">
-        <span class="brand-mark">N</span>
-        <span>Nettisivupohja</span>
-      </a>
+      <a class="brand" href="#etusivu" aria-label="Lean etusivu">Lean</a>
 
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Avaa valikko</span>
@@ -24,112 +21,181 @@
         <span></span>
       </button>
 
-      <nav id="site-nav" class="site-nav" aria-label="Paavalikko">
-        <a href="#palvelut">Palvelut</a>
-        <a href="#tyot">Tyot</a>
+      <nav id="site-nav" class="site-nav" aria-label="Päävalikko">
+        <a href="#etusivu">Etusivu</a>
+        <a href="#pelit">Pelit</a>
+        <a href="#sovellukset">Sovellukset</a>
+        <a href="#meista">Meistä</a>
         <a href="#yhteys">Yhteys</a>
       </nav>
+
+      <a class="header-cta" href="#yhteys">Ota yhteyttä</a>
     </header>
 
     <main id="etusivu">
-      <section class="hero">
+      <section class="hero" aria-labelledby="hero-title">
         <div class="hero-content">
-          <p class="eyebrow">Valmis pohja GitHubiin</p>
-          <h1>Lean</h1>
-          <p class="hero-text">
-            Muokkaa tekstit, vaihda varit ja julkaise sivu GitHub Pagesilla. Ei asennuksia,
-            ei monimutkaista buildia.
+          <h1 id="hero-title">Luomme pelejä ja sovelluksia.</h1>
+          <p>
+            Lean on itsenäinen pelistudio ja sovelluskehittäjä. Teemme laadukkaita
+            digitaalisia kokemuksia, joita ihmiset haluavat käyttää.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#yhteys">Aloita muokkaus</a>
-            <a class="button secondary" href="#palvelut">Katso sisalto</a>
+            <a class="button primary" href="#pelit">Katso pelimme</a>
+            <a class="button secondary" href="#sovellukset">Tutustu sovelluksiimme</a>
           </div>
         </div>
 
-        <div class="hero-panel" aria-label="Sivun kohokohdat">
-          <div>
-            <span class="stat">100%</span>
-            <span class="stat-label">staattinen HTML/CSS/JS</span>
-          </div>
-          <div>
-            <span class="stat">5 min</span>
-            <span class="stat-label">GitHub Pages -julkaisuun</span>
-          </div>
-          <div>
-            <span class="stat">0</span>
-            <span class="stat-label">pakollista riippuvuutta</span>
-          </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="spotlight"></div>
+          <div class="cube"></div>
+          <div class="sphere"></div>
+          <div class="floor-shadow"></div>
         </div>
       </section>
 
-      <section id="palvelut" class="section">
+      <section id="pelit" class="section">
         <div class="section-heading">
-          <p class="eyebrow">Sisalto</p>
-          <h2>Rakenna tasta oma sivusi</h2>
-          <p>
-            Pohjassa on yleisimmat osiot valmiina. Voit kayttaa tata yritykselle,
-            portfoliolle, tapahtumalle tai omalle projektille.
-          </p>
+          <h2>Pelit</h2>
+          <a href="#yhteys">Katso kaikki pelit <span aria-hidden="true">-></span></a>
         </div>
 
-        <div class="feature-grid">
-          <article class="feature-card">
-            <span class="icon">01</span>
-            <h3>Selkea etusivu</h3>
-            <p>Hero-osio, toimintapainikkeet ja nopea yhteenveto sivun tarkoituksesta.</p>
+        <div class="product-grid game-grid">
+          <article class="product-card game-card hollow">
+            <div class="card-overlay">
+              <h3>Gearhollow</h3>
+              <p>Toiminta, Seikkailu</p>
+              <div class="platforms" aria-label="Alustat">
+                <span>Windows</span>
+                <span>Steam</span>
+              </div>
+            </div>
           </article>
-          <article class="feature-card">
-            <span class="icon">02</span>
-            <h3>Palvelut tai ominaisuudet</h3>
-            <p>Kolme korttia, joihin voit vaihtaa omat palvelut, hyodyt tai tuotteet.</p>
+          <article class="product-card game-card neon">
+            <div class="card-overlay">
+              <h3>Neon Tides</h3>
+              <p>Toiminta, Rogue-like</p>
+              <div class="platforms" aria-label="Alustat">
+                <span>Windows</span>
+                <span>Steam</span>
+              </div>
+            </div>
           </article>
-          <article class="feature-card">
-            <span class="icon">03</span>
-            <h3>Helppo yhteydenotto</h3>
-            <p>Valmis yhteysosio, jonka sahkopostin ja some-linkit voi vaihtaa nopeasti.</p>
+          <article class="product-card game-card ember">
+            <div class="card-overlay">
+              <h3>Emberpath</h3>
+              <p>Seikkailu, Pulma</p>
+              <div class="platforms" aria-label="Alustat">
+                <span>Windows</span>
+              </div>
+            </div>
+          </article>
+          <article class="product-card game-card vessel">
+            <div class="card-overlay">
+              <h3>Blackvessel</h3>
+              <p>Toiminta, Tarinavetoinen</p>
+              <div class="platforms" aria-label="Alustat">
+                <span>Windows</span>
+                <span>Steam</span>
+              </div>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="tyot" class="section split-section">
-        <div>
-          <p class="eyebrow">Projektit</p>
-          <h2>Nayta mita osaat</h2>
-          <p>
-            Tama osio sopii referensseille, kuville, case-esimerkeille tai lyhyelle
-            esittelylle. Vaihda tekstit omiin ja poista mita et tarvitse.
-          </p>
+      <section id="sovellukset" class="section">
+        <div class="section-heading">
+          <h2>Sovellukset</h2>
+          <a href="#yhteys">Katso kaikki sovellukset <span aria-hidden="true">-></span></a>
         </div>
-        <div class="project-list">
-          <article>
-            <h3>Projekti A</h3>
-            <p>Lyhyt kuvaus projektista, tuloksesta tai asiakkaalle tuotetusta arvosta.</p>
+
+        <div class="product-grid app-grid">
+          <article class="product-card app-card">
+            <span class="app-icon flow" aria-hidden="true">∞</span>
+            <h3>Flowdesk</h3>
+            <p>Tehokas työtilasovellus tiimeille.</p>
+            <div class="platforms">
+              <span>Windows</span>
+              <span>macOS</span>
+              <span>Web</span>
+            </div>
           </article>
-          <article>
-            <h3>Projekti B</h3>
-            <p>Voit lisata tanne linkkeja GitHub-repoihin, demoihin tai kuviin.</p>
+          <article class="product-card app-card">
+            <span class="app-icon task" aria-hidden="true">✓</span>
+            <h3>Taskly</h3>
+            <p>Yksinkertainen ja kaunis tehtävienhallinta.</p>
+            <div class="platforms">
+              <span>macOS</span>
+              <span>Android</span>
+            </div>
+          </article>
+          <article class="product-card app-card">
+            <span class="app-icon stats" aria-hidden="true">▥</span>
+            <h3>Statsive</h3>
+            <p>Seuraa ja analysoi suoritustasi.</p>
+            <div class="platforms">
+              <span>macOS</span>
+              <span>Android</span>
+            </div>
+          </article>
+          <article class="product-card app-card">
+            <span class="app-icon cloud" aria-hidden="true">☁</span>
+            <h3>Nimbus</h3>
+            <p>Pilvipohjainen tiedostojen synkronointi.</p>
+            <div class="platforms">
+              <span>Windows</span>
+              <span>macOS</span>
+              <span>Android</span>
+            </div>
           </article>
         </div>
       </section>
 
-      <section id="yhteys" class="section contact-section">
-        <div>
-          <p class="eyebrow">Yhteys</p>
-          <h2>Valmis julkaistavaksi</h2>
+      <section class="info-grid">
+        <article id="meista" class="info-card">
+          <h2>Meistä</h2>
           <p>
-            Muokkaa tahan oma nimesi, sahkoposti ja linkit. Sen jalkeen repo GitHubiin
-            ja Pages paalle.
+            Lean on pieni ja intohimoinen tiimi, joka uskoo luovuuteen, laatuun ja
+            pelaajien kunnioittamiseen. Teemme omia projektejamme ja autamme myös muita
+            toteuttamaan ideoitaan.
           </p>
-        </div>
-        <a class="button primary" href="mailto:sinun.sahkoposti@example.com">
-          sinun.sahkoposti@example.com
-        </a>
+          <div class="team-list" aria-label="Tiimi">
+            <span>JR</span>
+            <span>AN</span>
+            <span>EK</span>
+            <span>MV</span>
+            <span>SL</span>
+          </div>
+          <a class="button secondary compact" href="#yhteys">Tapaa tiimi</a>
+        </article>
+
+        <article id="yhteys" class="info-card contact-card">
+          <div>
+            <h2>Ota yhteyttä</h2>
+            <p>Haluatko tehdä yhteistyötä tai sinulla on kysyttävää? Ota rohkeasti yhteyttä.</p>
+            <ul class="contact-list">
+              <li><span aria-hidden="true">@</span> hello@lean.studio</li>
+              <li><span aria-hidden="true">#</span> discord.gg/lean</li>
+              <li><span aria-hidden="true">⌖</span> Helsinki, Suomi</li>
+            </ul>
+          </div>
+          <a class="circle-link" href="mailto:hello@lean.studio" aria-label="Lähetä sähköposti">
+            <span aria-hidden="true">-></span>
+          </a>
+        </article>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>&copy; <span id="year"></span> Nettisivupohja. Kaikki oikeudet pidatetaan.</p>
-      <a href="#etusivu">Takaisin alkuun</a>
+      <a class="brand" href="#etusivu" aria-label="Lean etusivu">Lean</a>
+      <nav aria-label="Alatunniste">
+        <a href="#etusivu">Etusivu</a>
+        <a href="#pelit">Pelit</a>
+        <a href="#sovellukset">Sovellukset</a>
+        <a href="#meista">Meistä</a>
+        <a href="#yhteys">Yhteys</a>
+      </nav>
+      <p>&copy; <span id="year"></span> Lean. Kaikki oikeudet pidätetään.</p>
     </footer>
 
     <script src="script.js"></script>
