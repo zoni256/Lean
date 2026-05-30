@@ -6,7 +6,7 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const translations = {
   en: {
     "meta.description":
-      "Lean is a modern game studio and app developer creating atmospheric games and polished digital products.",
+      "Lean is an independent game studio and app developer creating atmospheric games, useful apps, and polished digital experiences.",
     "brand.aria": "Lean home",
     "nav.aria": "Main navigation",
     "nav.open": "Open menu",
@@ -45,7 +45,7 @@ const translations = {
     "contact.email": "Send email",
     "footer.aria": "Footer",
     "footer.copy": "&copy; <span id=\"year\"></span> Lean. All rights reserved.",
-    title: "Lean - Games and Apps",
+    title: "Lean - Games and Apps Studio",
     lang: "en",
   },
   fi: {
