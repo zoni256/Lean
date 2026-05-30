@@ -641,13 +641,34 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 50%;
   color: #eef1f7;
-  font-size: 3.4rem;
 }
 
 .circle-link:hover,
 .circle-link:focus-visible {
   border-color: rgba(255, 255, 255, 0.46);
   background: rgba(255, 255, 255, 0.04);
+}
+
+.arrow-icon {
+  position: relative;
+  display: block;
+  width: 42px;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.arrow-icon::after {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  content: "";
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: translateY(-50%) rotate(45deg);
+  transform-origin: center;
 }
 
 .site-footer {
